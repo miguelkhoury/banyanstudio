@@ -16,7 +16,7 @@ get_header(); ?>
 			<section class="error-404 not-found">
 				<header class="page-header">
 					<h1 class="page-title"><?php _e( 'That&rsquo;s unfortunate. That page can&rsquo;t be found.', '_s' ); ?></h1>
-					<p style="text-align:center;"><a href="/">« back to the front page</a></p>
+					<p style="text-align:center;"><a href="/">« go back to the front page.</a></p>
 				</header><!-- .page-header -->
 
 				<div class="page-content">
