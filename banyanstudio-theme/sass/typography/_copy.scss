@@ -1,0 +1,179 @@
+
+body {
+	
+	
+	font-size: 1.35rem;
+}
+
+
+
+p {
+	margin-bottom: 1.5em;
+	font-size: 18px;
+	hyphens:auto;
+
+}
+
+
+
+p.lead {
+	
+	font-size: 150%;
+	text-align: center;
+}
+
+
+
+
+
+p.sublead {
+	
+	text-align: center;
+	font-size: 150%;
+}
+
+
+
+
+
+
+
+
+dfn, cite, em, i {
+	font-style: italic;
+}
+
+blockquote {
+	margin: 0 1.5em;
+}
+
+address {
+	margin: 0 0 1.5em;
+}
+
+pre {
+	background: $color__background-pre;
+	font-family: $font__pre;
+	@include font-size(0.9375);
+	line-height: $font__line-height-pre;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+
+code, kbd, tt, var {
+	font-family: $font__code;
+	@include font-size(0.9375);
+}
+
+abbr, acronym {
+	border-bottom: 1px dotted $color__border-abbr;
+	cursor: help;
+}
+
+mark, ins {
+	background: $color__background-ins;
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}
+
+
+
+.lead {
+	
+	margin-bottom:40px;
+}
+
+
+.nopad {
+	
+	
+}
+
+
+b, strong {
+	
+	font-weight: normal;
+	font-size: 120%;
+	text-transform: uppercase;
+}
+
+
+
+
+div.row.shortwidth.center-block div p {
+	
+	text-align: center;
+	font-size: 110%;
+	margin-top: 10px;
+}
+
+
+div.modal-body div.row div.col-md-6 p {
+	
+	font-size: 100%;
+}
+
+div.modal-body div.row div.col-md-6  {
+	
+	font-size: 130%;
+}
+
+
+.modal.fade.in div.modal-body div.row div.col-md-6 p {
+	
+	text-align: left;
+}
+
+
+
+
+
+.modal-body a {
+	
+	color:$color_banyanorange;
+}
+
+.modal-body a:visited {
+	
+	color:$color_banyanorange;
+}
+
+
+
+
+div#cscf.cscfBlock div.cscfForm p {
+	
+	font-size: 20px;
+}
+
+
+.modal.fade.in div.modal-body div.row div.col-md-6 blockquote p {
+	
+	
+	text-align: left;
+	
+	
+}
+
+
+.modal.fade.in div.modal-body div.row div.col-md-6 blockquote {
+	
+	border: none;
+	margin-left:5px;
+}
+
+
+
+div.modal-body div.row div.col-md-6  {
+	
+	padding-top:20px;
+}
+
+
+
+

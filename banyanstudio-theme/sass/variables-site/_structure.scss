@@ -1,0 +1,337 @@
+$size__site-main: 100%;
+
+
+body {
+	
+	height:3500px;
+
+}
+
+
+
+body.error404 {
+	
+	
+	background-color: $color_banyandarkblue;
+}
+
+
+
+body.error404 ul#menu-menu.nav.navbar-nav {
+	
+	display:none;
+}
+
+
+
+
+
+
+
+
+div#page.hfeed.site.container-fluid {
+	
+	padding:0px;
+}
+
+
+#primary {
+	
+	
+	float:inherit;
+	width:100%;
+}
+
+
+
+
+div.nav.nav-navbar.container div.row div a svg#Layer_1 {
+	
+	margin-top:10px;
+}
+
+
+.section {
+	
+	
+
+
+	min-height:600px;
+	padding-top:130px;
+
+}
+
+
+/*client list mobile width fix*/
+
+@media (max-width: 767px) {
+
+.col-xs-offset-2 {
+	
+	margin-left:0px;
+}
+
+div.container-fluid div.row.shortwidth.center-block div.col-sm-4 img {
+	
+	
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+
+}
+
+
+
+
+
+/*Portfolio section*/
+
+
+
+
+
+#portfolio {
+	
+	background-color: $color_banyandarkblue;
+	margin-left: -30px;
+	margin-right: -30px;
+	
+		
+	
+	
+
+}
+
+ul.thumbnails.filterable-grid {
+	
+	
+	padding-left:20px;
+}
+
+
+
+ul.thumbnails > li {
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 150px;
+    list-style: none;
+   
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+
+
+
+
+div#about.row.section {
+	
+	
+	background-color: $color_banyanblue;
+
+	margin-left: -30px;
+	margin-right: -30px;
+	padding-left:20px;
+	padding-right:20px;
+	
+	
+}
+
+
+
+div#contact.row.section {
+	
+	
+	background-color: $color_banyandarkblue;
+	color:#fff;
+
+	margin-left: -30px;
+	margin-right: -30px;
+	padding-left:20px;
+	padding-right:20px;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+#content, #colophon {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+
+.site-info {
+	
+	text-align: center;
+}
+
+
+
+/*Parallax Scroll Plugin stuff*/
+
+
+.adamrob_pcontainer {
+	
+	width:100%;
+	padding-top:130px;
+	color:#fff;
+
+}
+
+
+
+.adamrob_parallax_fullwidth {
+	
+	background-position:center center;
+}
+
+
+
+
+/*Modals*/
+
+
+
+
+.modal-body {
+	
+	background-color: $color_banyandarkblue;
+	max-width:90%;
+	padding:30px;
+	margin-left:auto;
+	margin-right:auto;
+	color:#fff;
+	
+	
+}
+
+
+
+
+
+.modal-body ul {
+	
+	margin-left:0px;
+}
+
+
+
+.modal-body ul li:before {    
+content: '»';
+margin:0 5px 0 -15px;
+
+}
+
+.modal-body ul li {
+	
+	list-style: none;
+}
+
+
+
+
+.modal-header {
+	
+	border:none;
+	height: 20px;
+	padding: 0px;
+	
+}
+
+
+footer {
+	
+	
+	background-color: $color_banyanorange;
+	padding-bottom:20px;
+	color: $color_banyandarkblue;
+}
+
+
+footer a {
+	
+	color: $color_banyandarkblue;
+}
+
+
+
+
+
+/* 5 column grid option for front page*/
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

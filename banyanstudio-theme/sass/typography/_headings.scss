@@ -1,0 +1,88 @@
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-family: $font__header;
+	
+}
+
+
+h1 {
+	
+	font-size: 300%;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+
+.modal h1 {
+	
+	margin-top:0px;
+	text-align: left;
+
+}
+
+h2 {
+	
+     text-align: center;
+     text-transform: uppercase;
+     margin-top:30px;
+}
+
+
+
+h3 {
+	
+	text-transform: capitalize;
+	
+	
+}
+
+
+
+h4  {
+	
+
+	font-size: 160%;
+	text-transform: uppercase;
+	
+	
+}
+
+
+h5 {
+	
+	font-size: 100%;
+	text-transform: uppercase;
+	text-align: center;
+
+	
+}
+
+
+
+#portfolio h1 {
+	
+	
+	color:#fff;
+}
+
+
+
+#portfolio div div.modal-body h1 {
+	
+	
+	color:#fff;
+	font-size: 220%;
+
+	
+}
+
+
+div#cscf.cscfBlock div.cscfMessageSent h3 {
+	
+	text-align: center;
+}
+

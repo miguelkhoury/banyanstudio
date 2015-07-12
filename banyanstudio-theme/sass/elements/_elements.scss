@@ -1,0 +1,362 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+body {
+	background: $color__background-body; /* Fallback for when there is no custom background color defined. */
+}
+
+blockquote, q {
+	quotes: "" "";
+
+	&:before,
+	&:after {
+		content: "";
+	}
+}
+
+hr {
+	background-color: $color__background-hr;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+@import "lists";
+
+img {
+	height: auto; /* Make sure images are scaled correctly. */
+	max-width: 100%; /* Adhere to container width. */
+}
+
+@import "tables";
+
+
+
+
+/* Misc classes*/
+
+
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+	
+	
+	box-shadow: none!important;
+	padding:0px;
+	border:none
+}
+
+
+
+.close  {
+	
+		color: #fff;
+		opacity: 1.0;
+		
+		
+		}
+
+
+
+button.close {
+	
+		background-color: transparent;
+		margin-top:-15px;
+		margin-right:-15px;
+}
+
+
+
+.button {
+	
+	background-color: $color_banyandarkblue;
+	padding: 9px;
+	border-radius: 32px;
+	margin-top: 30px;
+	text-transform: uppercase;
+	font-size: 80%;
+	display:block;
+	width: 180px;
+	text-align: center;
+	border: solid 1px #bbb;
+}
+
+
+
+/*contact form styling*/
+
+fieldset {
+	
+	border: none;
+	text-align: center;
+	margin:0;
+	padding:0;
+	
+}
+
+
+
+fieldset#fscf_form_fieldset1.fscf-fieldset legend {
+	
+	display: none;
+}
+
+
+
+
+label {
+	
+	font-weight: normal;
+	font-size: 18px;
+	margin-top:15px;
+	
+}
+
+
+
+
+
+#fscf_submit1.fscf-button-submit {
+	background-color: $color_banyangray;
+	padding: 9px;
+	border-radius: 32px;
+	margin-top: 30px;
+	text-transform: uppercase;
+	font-size: 18px;
+	display:block;
+	width: 180px;
+	text-align: center;
+	color:$color_banyanorange;
+	text-shadow: none;
+	margin-left:auto;
+	margin-right:auto;
+	
+	
+}
+
+
+div#fscf_required1 span.fscf-required-text {
+	
+	display:none;
+}
+
+
+div#fscf_required1 span.fscf-required-indicator {
+	
+	display:none;
+	
+}
+
+
+
+.fscf-input-text  {
+	
+	
+	width:100%;
+}
+
+
+.fscf-input-textarea {
+	
+	font-size: 18px;
+}
+
+
+
+div.fscf-div-field input#fscf_name1.fscf-input-text {
+	
+	
+	font-size: 18px;
+}
+
+
+
+div.fscf-div-field input#fscf_email1.fscf-input-text {
+	
+	
+	font-size: 18px;
+
+}
+
+
+
+.fscf-input-text {
+	
+	background-color: $color__background-body;
+}
+
+
+div.fscf-div-field textarea#fscf_field1_3.fscf-input-textarea {
+	
+	background-color: $color__background-body;
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Portfolio Quicksand Sort
+------------------------------------------------------------ */
+
+
+
+ul.filterable-grid.thumbnails li.col-xs-6.col-md-2 {
+	
+	list-style: none;
+	
+	
+}
+
+
+.thumbnail {
+	
+	background-color: transparent;
+	border: none;
+
+}
+
+
+ul.filterable-grid.thumbnails li.col-xs-6.col-md-2 {
+	
+	width:inherit;
+}
+
+
+
+
+a img.attachment-thumbnail.wp-post-image {
+	
+	width:150px;
+	height:150px;
+	display:block;
+	padding:5px;
+	background-color: $color__background-body;
+}
+
+
+div.modal-body div.row div.col-md-6 img {
+	
+	background-color: $color__background-body;
+	padding:5px;
+	
+}
+
+
+
+
+
+/*Icons*/
+
+
+span.big-icon {
+	
+	font-size: 500%;
+	text-align: center;
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+	height:57px;
+}
+
+
+
+
+
+@media (max-width: 500px) {
+	
+	
+	span.big-icon {
+	
+	font-size: 400%;
+}
+	
+	
+	}
+
+
+
+span.medium-icon {
+	
+	font-size: 300%;
+	text-align: center;
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+	height:37px;
+}
+
+
+
+
+span.small-icon {
+	
+	font-size: 200%;
+	text-align: center;
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+
+	height:22px;
+	margin:10px;
+	
+}
+
+
+
+
+
+
+/* Client logos*/
+
+
+.adamrob_pcontainer  div.container-fluid div.row.shortwidth.center-block   img {
+	
+	max-width: 200px;
+}
+
+
+
+
+
+/*short width for elements*/
+
+.shortwidth {
+	
+	max-width: 900px;
+	margin-bottom: 20px;
+}
+
+
+.shorterwidth {
+	
+	max-width: 700px;
+	margin-bottom: 20px;
+}
+
+
+
+
+.altwidth {
+	
+	width:90%;
+}
+
+
+

@@ -1,0 +1,465 @@
+
+
+nav.affix div.nav.nav-navbar.container div.row div {
+	
+	
+	padding-right:0px;
+	
+}
+
+
+
+
+nav {
+	
+	width: 100%;
+	height:130px;
+	z-index: 1000;
+	background-color: inherit;
+	 -webkit-transition: all .25s ease-in-out;
+      -moz-transition: all .25s ease-in-out;
+       -o-transition: all .25s ease-in-out;
+       transition: all .25s ease-in-out;
+
+		
+}
+
+
+ul#menu-menu.nav.navbar-nav {
+	
+
+
+	padding-left:0px;
+	padding-right:0px;
+	margin-left:auto;
+	margin-right:auto;
+
+	float:none;
+	position: relative;
+	
+	width:274px;
+	font-size: 106%;
+    text-transform: uppercase;
+
+
+	
+			
+}
+
+
+
+ul#menu-menu.nav > li > a {
+	
+	
+	
+	color:#fff;
+	padding:10px 10px 0px 10px;
+	font-family: $font__header;
+
+	
+
+
+	
+}
+
+
+
+
+
+
+
+
+.main-navigation {
+	background-color: transparent;
+
+
+	ul {
+		list-style: none;
+		
+		
+				
+
+		ul {
+			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+			float: left;
+			position: absolute;
+			top: 1.5em;
+			left: -999em;
+			z-index: 99999;
+
+			ul {
+				left: -999em;
+				top: 0;
+			}
+
+			li {
+				&:hover > ul {
+					left: 100%;
+					
+				}
+			}
+
+			a {
+				width: 200px;
+			}
+
+			:hover > a {
+				
+				background-color: transparent;
+			}
+
+			a:hover {
+				
+				
+				background-color: transparent;
+			}
+		}
+
+		li:hover > ul {
+			left: auto;
+		}
+	}
+	li {
+		
+	
+		
+		
+
+		&:hover > a {
+		}
+	}
+	a {
+		display: block;
+		text-decoration: none;
+		
+		
+	}
+
+	.current_page_item > a,
+	.current-menu-item > a,
+	.current_page_ancestor > a {
+	}
+}
+
+
+
+.nav > li > a:hover {
+	
+	background-color: transparent;
+}
+
+
+
+
+
+
+/*Scroll to top alternate menus*/
+
+
+.nav.affix.scrolled > li > a:hover {
+	
+	background-color: transparent;
+}
+
+
+
+
+header#masthead.site-header nav.affix.scrolled {
+	
+box-shadow: 2px 2px 3px $color_banyanblack;
+background-color: $color__background-body;
+
+
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+header#masthead.site-header nav.affix.scrolled div.nav.nav-navbar.container div.row div div.menu-menu-container ul#menu-menu.nav > li > a {
+	
+	
+	color:inherit;
+	
+}
+
+
+/* SVG Logo coloring and positioning */
+
+
+
+.brand {
+	
+	fill:#fff;
+}
+
+/*Back to top button*/
+
+
+svg#Layer_2 {
+	
+	
+	max-width: 25px;
+	
+	
+	}
+	
+
+
+#topbutton {
+	
+
+	position:absolute;
+	right:46%;
+	bottom:10px;
+	z-index: 900;
+}
+
+
+
+
+
+.to-top {
+	
+	
+	
+	display:none;
+}
+
+
+
+nav.affix.scrolled .to-top {
+	
+	display:inherit;
+	fill:$color_banyangreen;
+	height:27px;
+	margin-top:-40px;
+
+	
+}
+
+
+
+
+div#topbutton a svg {
+	
+	fill: $color_banyangreen;
+}
+
+
+
+div#topbutton a:hover svg {
+	
+	fill: $color_banyanorange;
+}
+
+
+
+
+
+svg#Layer_1 /*brand logo at top*/ {
+	
+	
+	max-width: 163px;
+	
+	margin-left:auto;
+	margin-right:auto;
+	display:block; 
+
+}
+
+
+
+html body#top.home div.container p.sublead a {
+	
+	color: #fff;
+}
+
+
+div.row.shortwidth.center-block.animated.zoomIn div.col-xs-4 h5 a {
+	
+	color:#fff;
+}
+
+
+header#masthead.site-header nav.affix.scrolled div.nav.nav-navbar.container div.row div a svg#Layer_1 g path.brand {
+	
+	
+	
+	fill:$color_banyangreen;
+}
+
+
+
+
+line {
+	
+	stroke:#fff;
+	
+	
+}
+
+
+header#masthead.site-header nav.affix.scrolled line {
+	
+		stroke:$color_banyangreen;
+	
+}
+
+
+
+/*Quicksand Filter Menus
+	-----------------------------------------------*/
+ul.filter.nav.nav-pills	{
+	
+	padding-left:0px;
+	padding-right:0px;
+	margin-left:auto;
+	margin-right:auto;
+	float:none;
+	position: inherit;
+	display: block;
+
+     width:280px;
+    padding-bottom:20px;
+	
+    text-transform: uppercase;
+    
+   
+
+
+}
+	
+
+
+ul.filter.nav.nav-pills > li > a {
+	
+	padding-right: 0px;
+	padding-left: 10px;
+	color:#fff;
+	
+	
+}
+
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+	
+
+
+
+
+
+	
+ul#menu-menu.nav.navbar-nav li a {
+		
+		
+		float:left;
+
+		
+		
+	}
+	
+	
+ul#menu-menu.nav > li > a {
+	
+	
+	
+	padding-top: 0px;
+}
+	
+	
+	
+	
+	
+	
+	}
+
+
+
+
+
+
+
+
+/* Small menu. */
+.menu-toggle {
+	display: none;
+}
+
+@media screen and (max-width: 600px) {
+	.menu-toggle,
+	.main-navigation.toggled .nav-menu {
+		display: block;
+	}
+
+	.main-navigation ul {
+		/*display: none;*/
+	}
+}
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+	.site-main & {
+		margin: 0 0 1.5em;
+		overflow: hidden;
+	}
+
+	& .nav-previous {
+		float: left;
+		width: 50%;
+	}
+
+	& .nav-next {
+		float: right;
+		text-align: right;
+		width: 50%;
+	}
+}
+
+
+
+
+ul.filter.nav.nav-pills > li:first-of-type {
+	
+	padding-left:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
