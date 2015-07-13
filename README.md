@@ -6,6 +6,5 @@ Technologies used:
 
 Bootstrap 3
 
-</br>
 _scores
 
