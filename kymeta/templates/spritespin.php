@@ -1,0 +1,68 @@
+<div class="spritespin"> </div>							
+<script type='text/javascript'>
+  $(function(){
+$(".spritespin").spritespin({
+width : 445, // window width
+height : 500, // window height
+frames : 56, // number of frames to show (soruce strings in array)
+sense : -5, // inverts drag direction to match the spin of the photograph
+source : [
+"/assets/pst_loop/frame-000000.png",
+"/assets/pst_loop/frame-000001.png",
+"/assets/pst_loop/frame-000002.png",
+"/assets/pst_loop/frame-000003.png",
+"/assets/pst_loop/frame-000004.png",
+"/assets/pst_loop/frame-000005.png",
+"/assets/pst_loop/frame-000006.png",
+"/assets/pst_loop/frame-000007.png",
+"/assets/pst_loop/frame-000008.png",
+"/assets/pst_loop/frame-000009.png",
+"/assets/pst_loop/frame-000010.png",
+"/assets/pst_loop/frame-000011.png",
+"/assets/pst_loop/frame-000012.png",
+"/assets/pst_loop/frame-000013.png",
+"/assets/pst_loop/frame-000014.png",
+"/assets/pst_loop/frame-000015.png",
+"/assets/pst_loop/frame-000016.png",
+"/assets/pst_loop/frame-000017.png",
+"/assets/pst_loop/frame-000018.png",
+"/assets/pst_loop/frame-000019.png",
+"/assets/pst_loop/frame-000020.png",
+"/assets/pst_loop/frame-000021.png",
+"/assets/pst_loop/frame-000022.png",
+"/assets/pst_loop/frame-000023.png",
+"/assets/pst_loop/frame-000024.png",
+"/assets/pst_loop/frame-000025.png",
+"/assets/pst_loop/frame-000026.png",
+"/assets/pst_loop/frame-000027.png",
+"/assets/pst_loop/frame-000028.png",
+"/assets/pst_loop/frame-000029.png",
+"/assets/pst_loop/frame-000030.png",
+"/assets/pst_loop/frame-000031.png",
+"/assets/pst_loop/frame-000032.png",
+"/assets/pst_loop/frame-000033.png",
+"/assets/pst_loop/frame-000034.png",
+"/assets/pst_loop/frame-000035.png",
+"/assets/pst_loop/frame-000036.png",
+"/assets/pst_loop/frame-000037.png",
+"/assets/pst_loop/frame-000038.png",
+"/assets/pst_loop/frame-000039.png",
+"/assets/pst_loop/frame-000040.png",
+"/assets/pst_loop/frame-000041.png",
+"/assets/pst_loop/frame-000042.png",
+"/assets/pst_loop/frame-000043.png",
+"/assets/pst_loop/frame-000044.png",
+"/assets/pst_loop/frame-000045.png",
+"/assets/pst_loop/frame-000046.png",
+"/assets/pst_loop/frame-000047.png",
+"/assets/pst_loop/frame-000048.png",
+"/assets/pst_loop/frame-000049.png",
+"/assets/pst_loop/frame-000050.png",
+"/assets/pst_loop/frame-000051.png",
+"/assets/pst_loop/frame-000052.png",
+"/assets/pst_loop/frame-000053.png",
+"/assets/pst_loop/frame-000054.png",
+"/assets/pst_loop/frame-000055.png",
+        ]
+    });
+    });    </script>
