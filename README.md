@@ -1,8 +1,8 @@
 # banyanstudio
-Repository for Banyan Studio-built WordPress themes.
+Repository for Banyan Studio Theme
+
 
 Technologies used:
-
 
 Bootstrap 3 CSS/JS Framework
 
